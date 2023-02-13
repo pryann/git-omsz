@@ -1,5 +1,5 @@
 Példaparancsok:
 
-git add .
+git add . VAGY git add <filename>
 git commit -m "commit message"
 git push
