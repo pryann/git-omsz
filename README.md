@@ -24,20 +24,20 @@
 
 ### Staging: add, commit, diff, restore
 
--git add <filename>
--git add .
--git commit -m "message"
--git commit -a -m "message"
--git commit --amend // utolsó commit módosítása
--git commit --amend -m "message"
+- git add <filename>
+- git add .
+- git commit -m "message"
+- git commit -a -m "message"
+- git commit --amend // utolsó commit módosítása
+- git commit --amend -m "message"
 
--git diff // Show changes between the working tree and the index
--git diff --cached // compare changes between the working tree and the latest commit
--git diff mybranch master
--git diff HEAD -- file.txt // utolsó commithoz képest viszonyít
--git restore file.txt // utolsó állapot visszaállítása
--git restore --staged file.txt
--git restore file.txt -s e8a23549656a5e21f7c6fc6bf2dfedc81e0e4d4e
+- git diff // Show changes between the working tree and the index
+- git diff --cached // compare changes between the working tree and the latest commit
+- git diff mybranch master
+- git diff HEAD -- file.txt // utolsó commithoz képest viszonyít
+- git restore file.txt // utolsó állapot visszaállítása
+- git restore --staged file.txt
+- git restore file.txt -s e8a23549656a5e21f7c6fc6bf2dfedc81e0e4d4e
 
 ## Linkek
 
