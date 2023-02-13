@@ -3,3 +3,5 @@ Példaparancsok:
 git add . VAGY git add <filename>
 git commit -m "commit message"
 git push
+
+git pull = git fetch + git merge
