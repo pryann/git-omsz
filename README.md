@@ -54,11 +54,11 @@
 - git rebase master topic // master változásait rá lehet húzni egy feature-re, a merge-ek elrejtődnek
 
 ```
-        A---B---C topic
+        A---B---C test
       /
 D---E---F---G master
 
-                A'--B'--C' topic
+                A'--B'--C' test
               /
 D---E---F---G master
 ```
