@@ -47,6 +47,30 @@
 - git branch // list
 - git branch -v // részletes infó
 - git checkout <branchname> // előtte mindig commit
+- git reset --soft HEAD~1 // commit adatainak visszavonása, stageben maradnak
+- git reset --mixed HEAD~1 // commit adatainak visszavonása, nem mutatja az előző értéket
+- git reset --hard HEAD~1 // commit adatainak visszavonása, stage és workdir is módosul
+- git revert HEAD~1
+- git rebase master topic // master változásait rá lehet húzni egy feature-re, a merge-ek elrejtődnek
+
+```
+        A---B---C topic
+      /
+D---E---F---G master
+
+                A'--B'--C' topic
+              /
+D---E---F---G master
+```
+
+- git clean -n: to dry run.
+- git clean -f: forcefully file deletion.
+- git clean -f -x: delete .gitignore files
+- git clean -f -d: delete the untracked directories.
+- git reflog // branch referencia lista
+- git stash // nem kommitolt változások elmentése
+- git stash list // stash history lista
+- git stash apply // mentett változások alkalmazása
 
 ## Linkek
 
