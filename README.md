@@ -53,3 +53,10 @@
 - [Gyakorló w3schools](https://www.w3schools.com/git/git_exercises.asp)
 - [Git katas](https://github.com/eficode-academy/git-katas)
 - [Git jegyzet](https://desoft.hu/downloads/git/git_v1.0.pdf)
+
+- Legyen mindegyik featrure branchen belül egy-egy file
+- A fileok neve feature1, feature2, feature3
+- A tartalmuk legyen ugyanaz, mint a nevük
+- Mind a 3 branch legyen belemergelve a develope branchbe
+- Minden merge után legyen egy commit
+- majd töröljétek a 3 feature branchet
