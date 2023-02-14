@@ -30,6 +30,7 @@
 - git commit -a -m "message"
 - git commit --amend // utolsó commit módosítása
 - git commit --amend -m "message"
+
 - git diff // Show changes between the working tree and the index
 - git diff --cached // compare changes between the working tree and the latest commit
 - git diff mybranch master
@@ -43,35 +44,14 @@
 - git push - előtte mindig commit
 - git pull - előtte mindig commit
 - git fetch ÉS git merge
-- git branch <branchname> // létrehozza
-- git branch -t <branchname> // létrehozza ás beállítja upstremnek
 - git branch // list
 - git branch -v // részletes infó
 - git checkout <branchname> // előtte mindig commit
-- git reset --soft HEAD~1 // commit adatainak visszavonása, stageben maradnak
-- git reset --mixed HEAD~1 // commit adatainak visszavonása, nem mutatja az előző értéket
-- git reset --hard HEAD~1 // commit adatainak visszavonása, stage és workdir is módosul
-- git revert HEAD~1
-- git rebase master topic // master változásait rá lehet húzni egy feature-re, a merge-ek elrejtődnek
-
-```
-        A---B---C topic
-      /
-D---E---F---G master
-
-                A'--B'--C' topic
-              /
-D---E---F---G master
-```
-
-- git gc
-- git reflog // branch referencia lista
-- git stash // nem kommitolt változások elmentése
-- git stash list // stash history lista
-- git stash apply // mentett változások alkalmazása
 
 ## Linkek
 
 - [Gyakorló w3schools](https://www.w3schools.com/git/git_exercises.asp)
 - [Git katas](https://github.com/eficode-academy/git-katas)
 - [Git jegyzet](https://desoft.hu/downloads/git/git_v1.0.pdf)
+
+V1
