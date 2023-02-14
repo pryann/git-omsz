@@ -39,6 +39,15 @@
 - git restore --staged file.txt
 - git restore file.txt -s e8a23549656a5e21f7c6fc6bf2dfedc81e0e4d4e
 
+### Branches
+
+- git push - előtte mindig commit
+- git pull - előtte mindig commit
+- git fetch ÉS git merge
+- git branch // list
+- git branch -v // részletes infó
+- git checkout <branchname> // előtte mindig commit
+
 ## Linkek
 
 - [Gyakorló w3schools](https://www.w3schools.com/git/git_exercises.asp)
