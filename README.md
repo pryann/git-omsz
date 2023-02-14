@@ -53,3 +53,5 @@
 - [Gyakorló w3schools](https://www.w3schools.com/git/git_exercises.asp)
 - [Git katas](https://github.com/eficode-academy/git-katas)
 - [Git jegyzet](https://desoft.hu/downloads/git/git_v1.0.pdf)
+
+V1
